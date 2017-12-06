@@ -6,6 +6,7 @@
     "shell": "firebase experimental:functions:shell",
     "start": "npm run shell",
     "deploy": "firebase deploy --only functions",
+    "deploy nearPokestop": "firebase deploy --only functions:nearPokestop",
     "logs": "firebase functions:log"
   },
   "dependencies": {
